@@ -9,6 +9,7 @@
 - paging 3
 - Network connection state, showing network status in home screen
 - Unit testing
+- Instrumentation testing
 - Configuration changes management
 - Timber logs
 - Mockk
