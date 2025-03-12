@@ -113,7 +113,6 @@ fun PortraitDetail(
         LazyRow(
             modifier = Modifier
                 .fillMaxWidth()
-                .background(MaterialTheme.colorScheme.primary)
                 .padding(vertical = 8.dp),
             contentPadding = PaddingValues(
                 horizontal = 16.dp
@@ -145,7 +144,10 @@ fun LandscapeDetail(
     product: ProductDetailUI,
     onBack: () -> Unit
 ) {
-    Row(Modifier.testTag("landscape_detail")) {
+    Row(
+        Modifier.testTag("landscape_detail")
+    ) {
+        Spacer(Modifier.width(32.dp))
         Column(modifier = Modifier.weight(5.5f)) {
             Back(onBack)
             ProductInfo(product)
@@ -155,7 +157,6 @@ fun LandscapeDetail(
             modifier = Modifier
                 .weight(4.5f)
                 .fillMaxHeight()
-                .background(MaterialTheme.colorScheme.primary)
                 .padding(vertical = 8.dp),
             contentPadding = PaddingValues(
                 horizontal = 16.dp
