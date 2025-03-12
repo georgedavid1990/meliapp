@@ -16,6 +16,7 @@
 - SAfe api request pattern
 - Meli error style mapper
 - mvvm + clean architecture
+- Koin DI
 
 ### Screenshots
 
