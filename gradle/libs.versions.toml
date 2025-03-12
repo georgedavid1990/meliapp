@@ -1,0 +1,94 @@
+[versions]
+agp = "8.7.3"
+android-library = "8.0.2"
+kotlin = "1.9.21"
+core-ktx = "1.15.0"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.2.1"
+androidx-testing = "1.5.0"
+espresso-core = "3.6.1"
+lifecycle-runtime-ktx = "2.8.7"
+activity-compose = "1.9.3"
+compose-bom = "2024.11.00"
+org-jetbrains-kotlin-jvm = "1.9.0"
+appcompat = "1.7.0"
+retrofit = "2.9.0"
+logging-interceptor = "4.12.0"
+koin-version= "3.4.3"
+paging3 = "3.3.0"
+material3 = "1.3.1"
+navigation = "2.7.5"
+coil-version = "2.2.2"
+google-services = "4.4.2"
+firebase-bom = "32.1.0"
+corutines-core = "1.9.0"
+material3-window-size-classAndroid = "1.3.1"
+accompanist-systemuicontroller = "0.27.0"
+leakcanary-android = "2.14"
+timber = "5.0.1"
+mockk = "1.13.17"
+truth = "1.4.4"
+kotlinx-coroutines-test = "1.7.3"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+testing-core = { group = "androidx.test", name = "core", version.ref = "androidx-testing" }
+testing-runner = { group = "androidx.test", name = "runner", version.ref = "androidx-testing" }
+testing-rules = { group = "androidx.test", name = "rules", version.ref = "androidx-testing" }
+paging-testing = { group = "androidx.paging", name = "paging-testing", version.ref = "paging3" }
+ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "kotlinx-coroutines-test" }
+mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
+truth = { group = "com.google.truth", name = "truth", version.ref = "truth" }
+
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+ui = { group = "androidx.compose.ui", name = "ui" }
+ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "material3"}
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+paging-runtime = { group = "androidx.paging", name = "paging-runtime", version.ref = "paging3" }
+paging-compose = { group = "androidx.paging", name = "paging-compose", version.ref = "paging3" }
+navigation = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation" }
+kotlinx-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "corutines-core" }
+androidx-material3-windowsizeclass = { group = "androidx.compose.material3", name = "material3-window-size-class-android", version.ref = "material3-window-size-classAndroid" }
+accompanist-systemuicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "accompanist-systemuicontroller"}
+
+# Retrofit
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "logging-interceptor" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+
+# Koin
+koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin-version" }
+koin-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koin-version" }
+
+# Coil
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil-version" }
+
+#Firebase
+firebase-bom  = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebase-bom"}
+firebase-config  = { group = "com.google.firebase", name = "firebase-config"}
+firebase-analytics  = { group = "com.google.firebase", name = "firebase-analytics-ktx"}
+
+#Leak Canary
+leakcanary-android = { group = "com.squareup.leakcanary", name = "leakcanary-android", version.ref = "leakcanary-android" }
+
+#Timber
+timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
+
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+org-jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "org-jetbrains-kotlin-jvm" }
+androidLibrary = { id = "com.android.library", version.ref = "android-library" }
+google-services = { id = "com.google.gms.google-services", version.ref = "google-services" }
+

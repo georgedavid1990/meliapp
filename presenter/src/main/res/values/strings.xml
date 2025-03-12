@@ -1,0 +1,13 @@
+<resources>
+    <string name="nothing_to_show_here">Nothing to show here</string>
+    <string name="please_try_searching_again">Please try searching again</string>
+    <string name="welcome_to_my_challenge">Welcome to my challenge</string>
+    <string name="please_start_searching_ml_items">Please start searching ML items</string>
+    <string name="product_not_found">Product not found</string>
+    <string name="generic_error">Something went wrong, please try again.</string>
+    <string name="ups">Ups!</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="please_check_your_internet">Please check your internet connection and try again.</string>
+    <string name="search_items">search items</string>
+    <string name="disponibles">Disponibles: %1$s</string>
+</resources>
